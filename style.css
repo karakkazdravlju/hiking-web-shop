@@ -12,3 +12,30 @@
     --text: #4a4a4a;
     --borders: #eeeeee;
 }
+/*****************
+basic styles
+*****************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--fontSize);
+    color: var(--text);
+    line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headings);
+}
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+a:hover {
+    transition: var(--transition);
+}
+ul {
+    list-style: none;
+}
