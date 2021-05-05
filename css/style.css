@@ -148,3 +148,39 @@ feateredItems
 .owl-carousel .item:hover {
     border: 1px solid var(--primary);
 }
+/*****************
+subscribe
+*****************/
+.subscribe {
+    text-align: center;
+    background: var(--primary);
+    color: var(--white);
+}
+.subscribe h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+.subscribe p {
+    margin-bottom: 20px;
+}
+.subscribe input {
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--white);
+}
+.subscribe input[type="email"] {
+    background: transparent;
+    border: 1px solid var(--white);
+}
+.subscribe input[type="submit"] {
+    background: var(--white);
+    color: var(--black);
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+.subscribe input[type="submit"]:hover {
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black);
+}
