@@ -94,7 +94,7 @@ nav ul li a {
 header
 *****************/
 header {
-    background-image: url(img/header.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center top;
     background-size: cover;
     padding: 200px 0;
