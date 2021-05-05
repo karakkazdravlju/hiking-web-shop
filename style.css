@@ -39,6 +39,9 @@ a:hover {
 ul {
     list-style: none;
 }
+.active {
+    color: var(--primary);
+}
 /*****************
 topbar
 *****************/
@@ -57,4 +60,20 @@ topbar
 .topbar a i {
     font-size: 2.5rem;
     color: var(--text);
+}
+/*****************
+nav
+*****************/
+nav {
+    text-align: center;
+    padding: 15px 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li a {
+    margin: 0 30px;
+    text-transform: uppercase;
+    color: var(--black);
 }
