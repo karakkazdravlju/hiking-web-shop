@@ -45,6 +45,7 @@ ul {
 .container {
     width: 70%;
     margin: auto;
+    padding: 100px 0;
 }
 button {
     padding: 15px 40px;
@@ -54,6 +55,17 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: var(--transition);
+}
+h2 {
+    font-size: 1.5rem;
+}
+h2::before {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background: var(--primary);
+    margin-bottom: 10px;
 }
 /*****************
 topbar
@@ -105,13 +117,16 @@ header article {
     margin-left: 15%;
     padding: 40px;
 }
-header h2::after {
+header h3::after {
     display: block;
     content: "";
     height: 2px;
     width: 40px;
     background: var(--primary);
     margin: 20px 0;
+}
+header h3 {
+    font-size: 1.5rem;
 }
 header button {
     background: var(--primary);
@@ -120,4 +135,16 @@ header button {
 }
 header button:hover {
     background: var(--black);
+}
+/*****************
+feateredItems 
+*****************/
+.owl-carousel .item {
+    border: 1px solid var(--borders);
+    padding: 30px;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+.owl-carousel .item:hover {
+    border: 1px solid var(--primary);
 }
