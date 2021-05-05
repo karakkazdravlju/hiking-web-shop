@@ -184,3 +184,34 @@ subscribe
     color: var(--white);
     border: 1px solid var(--black);
 }
+/*****************
+footer
+*****************/
+footer {
+    text-align: center;
+}
+footer h3 a {
+    font-size: 1.7rem;
+}
+footer h3 a:hover {
+    color: var(--text);
+}
+footer h3 a i {
+    color: var(--text);
+}
+footer nav a {
+    margin: 0 30px;
+}
+footer .icons a i {
+    font-size: 1.5rem;
+    transition: var(--transition);
+    color: var(--black);
+    margin: 0 10px;
+}
+footer .icons a i:hover {
+    color: var(--primary);
+}
+footer article:last-child {
+    border-top: 1px solid var(--lightgray);
+    padding: 15px 0;
+}
