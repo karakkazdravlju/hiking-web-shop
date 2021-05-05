@@ -39,3 +39,22 @@ a:hover {
 ul {
     list-style: none;
 }
+/*****************
+topbar
+*****************/
+.topbar {
+    text-align: center;
+    border-top: 5px solid var(--primary);
+    border-bottom: 1px solid var(--lightgray);
+    padding: 20px 0;
+}
+.topbar a {
+    font-size: 2rem;
+}
+.topbar a:hover {
+    color: var(--text);
+}
+.topbar a i {
+    font-size: 2.5rem;
+    color: var(--text);
+}
