@@ -42,6 +42,19 @@ ul {
 .active {
     color: var(--primary);
 }
+.container {
+    width: 70%;
+    margin: auto;
+}
+button {
+    padding: 15px 40px;
+    margin-top: 25px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
 /*****************
 topbar
 *****************/
@@ -76,4 +89,35 @@ nav ul li a {
     margin: 0 30px;
     text-transform: uppercase;
     color: var(--black);
+}
+/*****************
+header
+*****************/
+header {
+    background-image: url(img/header.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding: 200px 0;
+}
+header article {
+    width: 30%;
+    background: rgba(255,255,255,.7);
+    margin-left: 15%;
+    padding: 40px;
+}
+header h2::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 40px;
+    background: var(--primary);
+    margin: 20px 0;
+}
+header button {
+    background: var(--primary);
+    border: none;
+    color: var(--white);
+}
+header button:hover {
+    background: var(--black);
 }
